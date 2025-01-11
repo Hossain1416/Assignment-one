@@ -1,7 +1,6 @@
 * {
   max-width: 1280px;
   margin: 5px auto;
-  
 }
 
 body {
@@ -101,7 +100,7 @@ main {
   border-radius: 16px;
   padding: 20px;
 }
-.yallow {
+.yellow {
   background-color: #f7ebcf;
   border-radius: 16px;
   padding: 20px;
@@ -129,7 +128,7 @@ main {
   padding: 25px;
   border-radius: 10px;
 }
-.setelite {
+.satelite {
   display: flex;
   gap: 32px;
   border-radius: 20px;
@@ -138,7 +137,7 @@ main {
   padding: 40px;
   margin-top: 20px;
 }
-.set-img{
+.set-img {
   border-radius: 24px;
 }
 .heading-four {
@@ -159,40 +158,39 @@ main {
 .read-more:hover {
   background-color: #f777f9;
 }
-.taka{
-    display: flex;
-    margin: 32px 100px;
-    
-    align-items: center;
-    
+.taka {
+  display: flex;
+  margin: 32px 100px;
+
+  align-items: center;
 }
-.number{
-    background-color: #FFFFFF;
-    
-    padding: 25px 30px;
-    font-weight: 700px;
-    font-size: 40px;
-    border-radius: 16px;
-    margin-top: 0px;
+.number {
+  background-color: #ffffff;
+
+  padding: 25px 30px;
+  font-weight: 700px;
+  font-size: 40px;
+  border-radius: 16px;
+  margin-top: 0px;
 }
-.number:hover{
-    background-color: #C6E4D6;
+.number:hover {
+  background-color: #c6e4d6;
 }
-.fifth-heading{
-    font-weight: 700px;
+.fifth-heading {
+  font-weight: 700px;
   font-size: 32px;
   color: #0e0e0e;
   text-align: center;
 }
 
-.input{
+.input {
   margin: 0px 170px;
-    text-align: center;
-    padding: 15px 350px;
-    font-size: 16px;
-    border: none;
+  text-align: center;
+  padding: 15px 350px;
+  font-size: 16px;
+  border: none;
 }
-.done-btn{
+.done-btn {
   background-color: #006a50;
   color: white;
   padding: 15px;
@@ -201,58 +199,58 @@ main {
   font-weight: 600px;
   font-size: 18px;
   margin: 20px 550px;
-  
 }
-.done-btn:hover{
+.done-btn:hover {
   background-color: rgb(132, 0, 255);
 }
-.subscribe{
+.subscribe {
   display: flex;
   gap: 0px;
   align-items: center;
-
 }
-.subs-in{
+.subs-in {
   border: none;
-  padding: 20px  200px;
+  padding: 20px 200px;
   margin: 5px 10px 5px 200px;
   border-radius: 16px 0px 0px 16px;
   text-align: center;
-
 }
-.subs-btn{
+.subs-btn {
   border: none;
   background-color: #006a50;
-  color: #FFFFFF;
+  color: #ffffff;
   padding: 20px 40px;
   margin-right: 500px;
   border-radius: 0px 16px 16px 0px;
   text-align: center;
-  
+  font-weight: 700px;
+  font-size: 18px;
 }
-.heading-six{
+.subs-btn:hover {
+  background-color: #c6e4d6;
+}
+.heading-six {
   font-weight: 700px;
   font-size: 40px;
   text-align: center;
 }
-.six-para{
+.six-para {
   font-size: 16px;
   text-align: center;
 }
-.Newsletter{
-  background-color: #C6E4D6;
+.Newsletter {
+  background-color: #c6e4d6;
   margin: 30px 50px;
   padding: 100px 50px;
   border-radius: 24px;
 }
-.social{
+.social {
   display: flex;
   margin: 5px 100px;
   align-items: center;
   gap: 0px;
 }
-.footer-div{
+.footer-div {
   margin: 50px 450px;
   text-align: center;
-  
 }
