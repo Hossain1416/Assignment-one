@@ -210,3 +210,39 @@ main {
 .done-btn:hover{
   background-color: rgb(132, 0, 255);
 }
+.subscribe{
+  display: flex;
+  gap: 0px;
+  align-items: center;
+
+}
+.subs-in{
+  border: none;
+  padding: 20px  200px;
+  margin: 5px 10px 5px 250px;
+  border-radius: 16px 0px 0px 16px;
+
+}
+.subs-btn{
+  border: none;
+  background-color: #006a50;
+  color: #FFFFFF;
+  padding: 20px 40px;
+  margin-right: 500px;
+  border-radius: 0px 16px 16px 0px;
+}
+.heading-six{
+  font-weight: 700px;
+  font-size: 40px;
+  text-align: center;
+}
+.six-para{
+  font-size: 16px;
+  text-align: center;
+}
+.Newsletter{
+  background-color: #C6E4D6;
+  margin: 30px 50px;
+  padding: 100px 50px;
+  border-radius: 24px;
+}
