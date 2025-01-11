@@ -1,156 +1,212 @@
-.open-sans-normal {
-    font-family: "Open Sans", serif;
-    font-optical-sizing: auto;
-    font-weight: normal 
-    font-style:normal
-    font-variation-settings:
-      "wdth" 100;
-  }
+* {
+  max-width: 1280px;
+  margin: 5px auto;
+  
+}
 
-
-  *{
-    max-width: 1280px;
-    margin: 5px auto;
+body {
+  font-family: "Fira Sans", serif;
+  background-color: #f5f5f5;
 }
 /* header part */
-.Bangladesh{
-    display: flex;
-    align-items: center;
-    justify-content:space-between ;
+.Bangladesh {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
-.sign{
-padding: 5px 10px 5px 10px;
-background-color: white;
-border-radius: 8px;
-color: #006A50;
-border-color: #006A50;
+.sign {
+  padding: 5px 10px 5px 10px;
+  background-color: white;
+  border-radius: 8px;
+  color: #006a50;
+  border-color: #006a50;
 }
-.two{
-    font-weight: 700px;
+.sign:hover {
+  background-color: burlywood;
+}
+.two {
+  font-weight: 700px;
 }
 /* banner */
-.flex-one{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 50px;
-    background-color: #C6E4D6;
-    border-radius: 24px;
-    padding: 50px;
-    gap: 64px;
-    
+.flex-one {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 50px;
+  background-color: #c6e4d6;
+  border-radius: 24px;
+  padding: 50px;
+  gap: 64px;
 }
-.para{
-    font-size: 24px;
-    color: #0E0E0E;
+.para {
+  font-size: 24px;
+  color: #0e0e0e;
 }
-.heading-one{
-    font-weight: 700px;
-    font-size: 56px;
-    color: #0E0E0E;
-    
+.heading-one {
+  font-weight: 700px;
+  font-size: 56px;
+  color: #0e0e0e;
 }
 
-
-.Idea{
-    margin: 117px 0px 117px 0px;
-    
+.Idea {
+  margin: 117px 0px 117px 0px;
 }
-.btn-explore{
-    font-weight: 600px;
-    font-size: 18px;
-    background-color: #006A50;
-    border: none;
-    border-radius: 8px;
-    padding: 17px 34px;
-    color: #FFFFFF;
+.btn-explore {
+  font-weight: 600px;
+  font-size: 18px;
+  background-color: #006a50;
+  border: none;
+  border-radius: 8px;
+  padding: 17px 34px;
+  color: #ffffff;
+}
+.btn-explore:hover {
+  background-color: aquamarine;
 }
 
 /* main */
 
-main{
-    max-width: 1280px;
-    margin: 5px auto;
+main {
+  max-width: 1280px;
+  margin: 5px auto;
 }
-.heading-two{
-    font-weight: 700px;
-    font-size: 40px;
+.heading-two {
+  font-weight: 700px;
+  font-size: 40px;
 }
-.main-para{
-    font-size: 16px;
-    color: #0E0E0E;
+.main-para {
+  font-size: 16px;
+  color: #0e0e0e;
 }
-.heading-three{
-    font-weight: 700px;
-    font-size: 20px;
-    color: #0E0E0E;
+.heading-three {
+  font-weight: 700px;
+  font-size: 20px;
+  color: #0e0e0e;
 }
-.main-btn{
-    color: white;
-    background-color: #5490F5;
-    border-radius: 8px;
-    border: none;
-    padding: 10px 10px;
+.main-btn {
+  color: white;
+  background-color: #5490f5;
+  border-radius: 8px;
+  border: none;
+  padding: 10px 10px;
 }
-.Digital{
+
+.main-btn:hover {
+  background-color: rebeccapurple;
+}
+
+.Digital {
+  display: flex;
+  gap: 24px;
+  justify-content: space-around;
+}
+.blue {
+  background-color: #b1ccf9;
+  border-radius: 16px;
+  padding: 20px;
+}
+.yallow {
+  background-color: #f7ebcf;
+  border-radius: 16px;
+  padding: 20px;
+}
+.green {
+  background-color: #c6e4d6;
+  border-radius: 16px;
+  padding: 20px;
+}
+.main-section {
+  margin: 80px 50px;
+}
+.third-heading {
+  font-weight: 600px;
+  font-size: 20px;
+  color: #0e0e0e;
+}
+.yunus {
+  margin: 80px 50px;
+  background-color: #ffffff;
+  background-image: url(../assets/quote-bg.png);
+  background-position-x: 30px;
+  background-repeat: no-repeat;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 25px;
+  border-radius: 10px;
+}
+.setelite {
+  display: flex;
+  gap: 32px;
+  border-radius: 20px;
+  box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  background-color: #ffffff;
+  padding: 40px;
+  margin-top: 20px;
+}
+.set-img{
+  border-radius: 24px;
+}
+.heading-four {
+  font-weight: 700px;
+  font-size: 32px;
+  color: #0e0e0e;
+}
+.read-more {
+  background-color: #006a50;
+  color: white;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600px;
+  font-size: 18px;
+  margin: 32px 0px 56px 0px;
+}
+.read-more:hover {
+  background-color: #f777f9;
+}
+.taka{
     display: flex;
-    gap: 24px;
-    justify-content: space-around;
-}
-.blue{
-    background-color: #b1ccf9;
-    border-radius: 16px;
-    padding: 20px;
-}
-.yallow{
-    background-color: #F7EBCF;
-    border-radius: 16px;
-    padding: 20px;
-}
-.green{
-    background-color: #C6E4D6;
-    border-radius: 16px;
-    padding: 20px;
-}
-.main-section{
-    margin: 80px 50px;
-}
-.third-heading{
-    font-weight: 600px;
-    font-size: 20px;
-    color: #0E0E0E;
-}
-.yunus{
-    margin:80px 50px;
-    background-color: #FFFFFF;
-    background-image: url(../assets/quote-bg.png);
-    background-repeat: no-repeat;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    padding: 25px;
-    border-radius: 10px;
-}
-.setelite{
-    display: flex;
-    gap: 32px;
-    border-radius: 20px;
-    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    background-color: #FFFFFF;
-    padding: 40px;
-    margin-top: 20px;
+    margin: 32px 100px;
+    
+    align-items: center;
     
 }
-.heading-four{
+.number{
+    background-color: #FFFFFF;
+    
+    padding: 25px 30px;
     font-weight: 700px;
-    font-size: 32px;
-    color: #0E0E0E;
+    font-size: 40px;
+    border-radius: 16px;
+    margin-top: 0px;
 }
-.read-more{
-    background-color: #006A50;
-    color: white;
-    padding: 20px;
+.number:hover{
+    background-color: #C6E4D6;
+}
+.fifth-heading{
+    font-weight: 700px;
+  font-size: 32px;
+  color: #0e0e0e;
+  text-align: center;
+}
+
+.input{
+  margin: 0px 170px;
+    text-align: center;
+    padding: 15px 350px;
+    font-size: 16px;
     border: none;
-    border-radius: 8px;
-    font-weight: 600px;
-    font-size: 18px;
-    margin: 32px 0px 56px 0px;
+}
+.done-btn{
+  background-color: #006a50;
+  color: white;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600px;
+  font-size: 18px;
+  margin: 20px 550px;
+  
+}
+.done-btn:hover{
+  background-color: rgb(132, 0, 255);
 }
