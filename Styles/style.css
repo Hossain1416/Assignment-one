@@ -9,11 +9,7 @@ body {
   background-color: #f5f5f5;
 }
 /* header part */
-.Bangladesh {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-}
+
 .sign {
   padding: 5px 10px 5px 10px;
   background-color: white;
@@ -219,8 +215,9 @@ main {
 .subs-in{
   border: none;
   padding: 20px  200px;
-  margin: 5px 10px 5px 250px;
+  margin: 5px 10px 5px 200px;
   border-radius: 16px 0px 0px 16px;
+  text-align: center;
 
 }
 .subs-btn{
@@ -230,6 +227,8 @@ main {
   padding: 20px 40px;
   margin-right: 500px;
   border-radius: 0px 16px 16px 0px;
+  text-align: center;
+  
 }
 .heading-six{
   font-weight: 700px;
