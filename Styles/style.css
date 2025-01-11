@@ -246,3 +246,14 @@ main {
   padding: 100px 50px;
   border-radius: 24px;
 }
+.social{
+  display: flex;
+  margin: 5px 100px;
+  align-items: center;
+  gap: 0px;
+}
+.footer-div{
+  margin: 50px 450px;
+  text-align: center;
+  
+}
